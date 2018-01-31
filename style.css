@@ -13,7 +13,7 @@ th, td {
 }
 
 tr:nth-child(even) {
-    background-color:rgba(75, 68, 81,0.2) ;
+    background-color:rgba(0, 230, 203,0.2) ;
 }
 h1{
 padding-left: 5px;
@@ -30,7 +30,7 @@ caption{
 h2,h3,h5{
   font-size: 8;
   font-family: sans-serif,serif;
-  color: rgb(75, 68, 81);
+  color: black;
   padding-top: 5px;
 }
 ul{
@@ -48,6 +48,8 @@ p{
   font-size: 8;
   font-family: sans-serif;
   font-weight: lighter;
+  color: white;
+
 }
 * {box-sizing: border-box;}
 
@@ -65,12 +67,6 @@ p{
 li{
   color: rgba(75, 68, 81,0.8);
 }
-.cplusplus {width: 90%; background-color:rgba(75, 68, 81,0.5);}
-.python {width: 65%; background-color:rgba(75, 68, 81,0.5);}
-.Java {width: 70%; background-color: rgba(75, 68, 81,0.5);}
-.androidapp {width: 60%; background-color:rgba(75, 68, 81,0.5);}
-.webapp {width: 20%; background-color: rgba(75, 68, 81,0.5);}
-.adobe {width: 60%; background-color:rgba(75, 68, 81,0.5);}
 input[type=text], select, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */
@@ -99,4 +95,3 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-  }
